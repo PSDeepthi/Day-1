@@ -1,15 +1,15 @@
 public class Main {
     public static void main(String[] args) {
-        int num = 5;
-        System.out.println("Before: " + num);
+        int[] num = new int[] {5};
+        System.out.println("Before: " + num[0]);
 
         modifyNum(num);
 
-        System.out.println("After: " + num);
+        System.out.println("After: " + num[0]);
     }
 
-    public static void modifyNum(int x) {
-        x = 10;
+    public static void modifyNum(int[] x) {
+        x[0] = 10;
     }
 }
 
