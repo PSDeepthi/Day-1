@@ -1,5 +1,6 @@
+package D1;
 import D2.B;
- class A {
+ public class A {
     public static void main(String[] args) {
         // Creating an instance of class B
         B b = new B();

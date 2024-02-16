@@ -1,4 +1,4 @@
-class Person {
+public class Main1 {
     public static void main(String[] args) {
         String x = "asdffff";
         System.out.println("Before: " + x);

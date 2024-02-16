@@ -1,3 +1,5 @@
+// interfaces for multiple inheritance
+
 interface Father{
 	abstract void call();
 	abstract void talk();
