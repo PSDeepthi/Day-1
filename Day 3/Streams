@@ -1,0 +1,36 @@
+List various classes available for reading / writing
+ 
+ a) byte data
+ 
+ b) character data (Strings)
+ 
+ c) files
+ 
+ d) objects
+
+Understand which i/o streams to use in which scenario.
+
+
+Scenarios:
+
+    Byte Data (a):
+        Use InputStream and OutputStream for reading and writing raw bytes.
+        Use specific classes like FileInputStream and FileOutputStream for file-based operations.
+        Use ByteArrayInputStream and ByteArrayOutputStream for in-memory byte array operations.
+
+    Character Data (b):
+        Use Reader and Writer for reading and writing character data.
+        Use specific classes like FileReader and FileWriter for file-based character operations.
+        Use StringReader and StringWriter for string-based operations.
+
+    Files (c):
+        Use Files class for various file-related operations.
+        Use BufferedReader and BufferedWriter for efficient text file reading and writing.
+
+    Objects (d):
+        Use ObjectInputStream and ObjectOutputStream for reading and writing objects.
+        These classes are often used in serialization scenarios.
+
+ Additionally, consider using buffered classes (BufferedReader/BufferedWriter) for improved performance when dealing with character-based data.
+ 
+ 
